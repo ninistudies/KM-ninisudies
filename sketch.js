@@ -7,9 +7,8 @@ function setup() {
     stroke("blue");
     fill("red");
 
-   1f(mouseIsPressed) {
+   if(mouseIsPressed) {
     rect(mouseX, mouseY, 20, 35);
    }
  
   }
-  
